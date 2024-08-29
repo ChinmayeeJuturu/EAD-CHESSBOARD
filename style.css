@@ -1,0 +1,31 @@
+body {
+	background: hsla(60, 2%, 9%, 0.25);
+}
+
+.chessboard {
+	width: 400px;
+	aspect-ratio: 1;
+	margin: auto;
+	box-shadow: 5px 5px 2px 2px hsla(0, 5%, 4%, 0.155);
+	padding: 40px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+  background-color: #8a8da9f7;
+}
+
+.row {
+	display: flex;
+}
+
+.row div {
+  flex-grow: 1;
+	aspect-ratio: 1;
+}
+
+.black {
+	background-color: #0a0909;
+}
+
+.white {
+	background-color: #ddd;
+}
